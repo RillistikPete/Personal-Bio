@@ -11,6 +11,14 @@ nav {
 	text-align: center;
 }
 
+ul a:hover {
+	color: orange;
+	background-color: blue;
+}
+ul a:click {
+	margin: 0 5px 0 5px;
+}
+
 .contactinfo {
 	text-align: center;
 }
