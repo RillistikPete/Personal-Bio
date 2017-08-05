@@ -3,18 +3,38 @@ h1 {
 	font-family: Helvetica, sans-serif;
 }
 
-.container {
-	width: 100%;
+
+.header {
+	background-color: navy;
+	box-shadow: 60px -15px 1px teal;
 }
 
-nav {
-	text-align: center;
+h1 {
+	background-color: darkblue;
+	box-shadow: 60px -15px 1px teal;
+}
+
+li {
+	padding: 10px;
+}
+
+ul a {
+	padding: 10px;
+	border: 2px solid teal;
+	-webkit-transition: padding .13s;
+	box-shadow: 3px 3px 3px gray;
+	border-radius: 5px;
 }
 
 ul a:hover {
-	color: orange;
-	background-color: blue;
+	padding: 15px;
+	color: teal;
+	border: 2px solid teal;
+	box-shadow: 3px 3px 3px gray;
+	transition-duration: .13s;
 }
+
+
 ul a:click {
 	margin: 0 5px 0 5px;
 }
@@ -25,4 +45,16 @@ ul a:click {
 
 footer {
 	text-align: center;
+}
+
+.container {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	box-shadow: 1px 2px;
+	width: 60%;
+}
+
+
+*, *:after, *:before {
+	box-sizing: border-box;
 }
